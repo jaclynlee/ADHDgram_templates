@@ -329,44 +329,7 @@
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
 		}
-	/*
-	@tab Lower Body
-	@section Lower Body Style
-	@tip Set the background color and borders for your email's lower body area.
-	*/
-		#templateLowerBody{
-			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:2px solid #EAEAEA;
-			/*@editable*/padding-top:0;
-			/*@editable*/padding-bottom:9px;
-		}
-	/*
-	@tab Lower Body
-	@section Lower Body Text
-	@tip Set the styling for your email's lower body text. Choose a size and color that is easy to read.
-	*/
-		#templateLowerBody .mcnTextContent,#templateLowerBody .mcnTextContent p{
-			/*@editable*/color:#1C1F26;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:16px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Lower Body
-	@section Lower Body Link
-	@tip Set the styling for your email's lower body links. Choose a color that helps them stand out from your text.
-	*/
-		#templateLowerBody .mcnTextContent a,#templateLowperBody .mcnTextContent p a{
-			/*@editable*/color:#8BB2A7;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
-		}
+
 	/*
 	@tab Footer
 	@section Footer Style
@@ -609,17 +572,6 @@
 	@tip Make the column text larger in size for better readability on small screens. We recommend a font size of at least 16px.
 	*/
 		#templateColumns .columnContainer .mcnTextContent,#templateColumns .columnContainer .mcnTextContent p{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-	/*
-	@tab Mobile Styles
-	@section Lower Body Text
-	@tip Make the lower body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
-	*/
-		#templateLowerBody .mcnTextContent,#templateLowerBody .mcnTextContent p{
 			/*@editable*/font-size:16px !important;
 			/*@editable*/line-height:150% !important;
 		}
@@ -1047,7 +999,7 @@ And yet it’s tough to do my own thing when we stay with people who have a very
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center" valign="top" id="templateLowerBody">
+                                <td align="center" valign="top" id="templateBody">
                                     <!--[if (gte mso 9)|(IE)]>
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
                                     <tr>
