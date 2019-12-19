@@ -40,9 +40,6 @@
 			padding:0;
 			width:100%;
 		}
-		.mcnPreviewText{
-			display:none !important;
-		}
 		#outlook a{
 			padding:0;
 		}
@@ -88,285 +85,268 @@
 		a.mcnButton{
 			display:block;
 		}
-		.mcnImage,.mcnRetinaImage{
+		.image,.mcnRetinaImage{
 			vertical-align:bottom;
 		}
-		.mcnTextContent{
+		.textContent{
 			word-break:break-word;
 		}
-		.mcnTextContent img{
+		.textContent img{
 			height:auto !important;
 		}
-		.mcnDividerBlock{
+		.dividerBlock{
 			table-layout:fixed !important;
 		}
 	/*
-	@tab Page
-	@section Background Style
-	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	Page Background Style
+	Sets the email's background color and top border.
 	*/
 		body,#bodyTable{
-			/*@editable*/background-color:#FAFAFA;
+			background-color:#FAFAFA;
 		}
-	/*
-	@tab Page
-	@section Background Style
-	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
-	*/
 		#bodyCell{
-			/*@editable*/border-top:0;
+			border-top:0;
 		}
+
+  /*
+  Divider style
+  */
+
+  td.dividerBlockInner{
+    min-width:100%;
+    padding:18px;
+  }
+
+  table.contentDividerElement{
+    min-width:100%;
+    border-top:2px solid #678294;
+  }
+
 	/*
-	@tab Page
-	@section Heading 1
-	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-	@style heading 1
+	Heading 1 Style
 	*/
 		h1{
-			/*@editable*/color:#2D5C75;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:26px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#2D5C75;
+			font-family:Helvetica;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
 	/*
-	@tab Page
-	@section Heading 2
-	@tip Set the styling for all second-level headings in your emails.
-	@style heading 2
+	Heading 2 Style
 	*/
 		h2{
-			/*@editable*/color:#678294;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:22px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#678294;
+			font-family:Helvetica;
+			font-size:22px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
 	/*
-	@tab Page
-	@section Heading 3
-	@tip Set the styling for all third-level headings in your emails.
-	@style heading 3
+	Heading 3 Style
 	*/
 		h3{
-			/*@editable*/color:#678294;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:20px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#678294;
+			font-family:Helvetica;
+			font-size:20px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
 	/*
-	@tab Page
-	@section Heading 4
-	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
-	@style heading 4
+	Heading 4 Style
 	*/
 		h4{
-			/*@editable*/color:#1C1F26;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:18px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			color:#1C1F26;
+			font-family:Helvetica;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
 		}
 	/*
-	@tab Preheader
-	@section Preheader Style
-	@tip Set the background color and borders for your email's preheader area.
+	Preheader Body Style
 	*/
 		#templatePreheader{
-			/*@editable*/background-color:#FAFAFA;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:9px;
-			/*@editable*/padding-bottom:9px;
+			background-color:#1C1F26;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:9px;
 		}
 	/*
-	@tab Preheader
-	@section Preheader Text
-	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	Preheader Text Style
 	*/
-		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
-			/*@editable*/color:#656565;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:12px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
+		#templatePreheader .textContent,#templatePreheader .textContent p{
+			color:#FFFFFF;
+			font-family:Helvetica;
+			font-size:12px;
+			line-height:150%;
+			text-align:left;
 		}
 	/*
-	@tab Preheader
-	@section Preheader Link
+	Preheader Link Style
 	*/
-		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
-			/*@editable*/color:#656565;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+		#templatePreheader .textContent a,#templatePreheader .textContent p a{
+			color:#C6DFCA;
+			font-weight:normal;
+			text-decoration:underline;
 		}
 	/*
-	@tab Header
-	@section Header Style
+	Header Style
 	*/
 		#templateHeader{
-			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:9px;
-			/*@editable*/padding-bottom:0;
+			background-color:#FFFFFF;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:0;
 		}
 	/*
-	@tab Header
-	@section Header Text
+	Header Text
 	*/
-		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:16px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
+		#templateHeader .textContent,#templateHeader .textContent p{
+			color:#202020;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			text-align:left;
 		}
 	/*
-	@tab Header
-	@section Header Link
-	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	Header Links
 	*/
-		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+		#templateHeader .textContent a,#templateHeader .textContent p a{
 			/*@editable*/color:#C6DFCA;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
 		}
 	/*
-	@tab Body
-	@section Body Style
-	@tip Set the background color and borders for your email's body area.
+  Body Style
 	*/
 		#templateBody{
-			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:0;
-			/*@editable*/padding-bottom:0;
+			background-color:#FFFFFF;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:0;
 		}
 	/*
-	@tab Body
-	@section Body Text
-	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+	Body Text
 	*/
-		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-			/*@editable*/color:#1C1F26;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:16px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
+		#templateBody .textContent,#templateBody .textContent p{
+			color:#1C1F26;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			text-align:left;
 		}
 	/*
-	@tab Body
-	@section Body Link
-	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+  Body Links
 	*/
-		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
-			/*@editable*/color:#8BB2A7;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
-		}
+		#templateBody .textContent a,#templateBody .textContent p a{
+			color:#8BB2A7;
+			font-weight:normal;
+			text-decoration:none;
 	/*
-	@tab Columns
-	@section Column Style
-	@tip Set the background color and borders for your email's columns.
+	Column Style
 	*/
 		#templateColumns{
-			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:0;
-			/*@editable*/padding-bottom:0;
+			background-color:#FFFFFF;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:0;
 		}
 	/*
-	@tab Columns
-	@section Column Text
-	@tip Set the styling for your email's column text. Choose a size and color that is easy to read.
+  Column Text
 	*/
-		#templateColumns .columnContainer .mcnTextContent,#templateColumns .columnContainer .mcnTextContent p{
-			/*@editable*/color:#1C1F26;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:16px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
+		#templateColumns .columnContainer .textContent,#templateColumns .columnContainer .textContent p{
+			color:#1C1F26;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			text-align:left;
 		}
 	/*
-	@tab Columns
-	@section Column Link
-	@tip Set the styling for your email's column links. Choose a color that helps them stand out from your text.
+	Column Links
 	*/
-		#templateColumns .columnContainer .mcnTextContent a,#templateColumns .columnContainer .mcnTextContent p a{
-			/*@editable*/color:#8BB2A7;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+		#templateColumns .columnContainer .textContent a,#templateColumns .columnContainer .textContent p a{
+			color:#8BB2A7;
+			font-weight:normal;
+			text-decoration:none;
 		}
 
+  /*
+  Embedded Content
+  */
+
+    table.embeddedSocialMediaContainer{
+      align-items:center;
+      border:none;
+    }
+    td.embeddedSocialMedia{
+      align-items:center;
+      text-align:center;
+      border:none;
+    }
+
 	/*
-	@tab Footer
-	@section Footer Style
-	@tip Set the background color and borders for your email's footer area.
+	Footer Style
 	*/
 		#templateFooter{
-			/*@editable*/background-color:#FAFAFA;
-			/*@editable*/background-image:none;
-			/*@editable*/background-repeat:no-repeat;
-			/*@editable*/background-position:center;
-			/*@editable*/background-size:cover;
-			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:9px;
-			/*@editable*/padding-bottom:9px;
+			background-color:#1C1F26;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:9px;
 		}
 	/*
-	@tab Footer
-	@section Footer Text
-	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	Footer Text
 	*/
-		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-			/*@editable*/color:#656565;
-			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:12px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:center;
+		#templateFooter .textContent,#templateFooter .textContent p{
+			color:#FFFFFF;
+			font-family:Helvetica;
+			font-size:12px;
+			line-height:150%;
+			text-align:center;
 		}
 	/*
-	@tab Footer
-	@section Footer Link
-	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	Footer Links
 	*/
-		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
-			/*@editable*/color:#656565;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+		#templateFooter .textContent a,#templateFooter .textContent p a{
+			color:#C6DFCA;
+			font-weight:normal;
+			text-decoration:underline;
 		}
 	@media only screen and (min-width:768px){
 		.templateContainer{
@@ -401,12 +381,12 @@
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnImage{
+		.image{
 			width:100% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.textContentContainer,.mcnBoxedTextContentContainer,.imageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.imageCardLeftTextContentContainer,.imageCardRightTextContentContainer,.imageCardLeftImageContentContainer,.imageCardRightImageContentContainer{
 			max-width:100% !important;
 			width:100% !important;
 		}
@@ -417,45 +397,45 @@
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnImageGroupContent{
+		.imageGroupContent{
 			padding:9px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+		.mcnCaptionLeftContentOuter .textContent,.mcnCaptionRightContentOuter .textContent{
 			padding-top:9px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+		.imageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .textContent{
 			padding-top:18px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnImageCardBottomImageContent{
+		.imageCardBottomImageContent{
 			padding-bottom:9px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockInner{
+		.imageGroupBlockInner{
 			padding-top:0 !important;
 			padding-bottom:0 !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockOuter{
+		.imageGroupBlockOuter{
 			padding-top:9px !important;
 			padding-bottom:9px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnTextContent,.mcnBoxedTextContentColumn{
+		.textContent,.mcnBoxedTextContentColumn{
 			padding-right:18px !important;
 			padding-left:18px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+		.imageCardLeftImageContent,.imageCardRightImageContent{
 			padding-right:18px !important;
 			padding-bottom:0 !important;
 			padding-left:18px !important;
@@ -469,129 +449,105 @@
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Heading 1
-	@tip Make the first-level headings larger in size for better readability on small screens.
+	Mobile Heading 1
 	*/
 		h1{
-			/*@editable*/font-size:22px !important;
-			/*@editable*/line-height:125% !important;
+			font-size:22px !important;
+			line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Heading 2
-	@tip Make the second-level headings larger in size for better readability on small screens.
+	Mobile Heading 2
 	*/
 		h2{
-			/*@editable*/font-size:20px !important;
-			/*@editable*/line-height:125% !important;
+			font-size:20px !important;
+			line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Heading 3
-	@tip Make the third-level headings larger in size for better readability on small screens.
+	Mobile Heading 3
 	*/
 		h3{
-			/*@editable*/font-size:18px !important;
-			/*@editable*/line-height:125% !important;
+			font-size:18px !important;
+			line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Heading 4
-	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	Mobile Heading 4
 	*/
 		h4{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
+			font-size:16px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Boxed Text
-	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	Mobile Boxed Text
 	*/
-		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:150% !important;
+		.mcnBoxedTextContentContainer .textContent,.mcnBoxedTextContentContainer .textContent p{
+			font-size:14px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Preheader Visibility
-	@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.
+	Mobile Preheader Visibility
+  Hide preheader to save space on smaller screens
 	*/
 		#templatePreheader{
-			/*@editable*/display:block !important;
+			display:block !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Preheader Text
-	@tip Make the preheader text larger in size for better readability on small screens.
+	Mobile Preheader Text
 	*/
-		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
-			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:150% !important;
+		#templatePreheader .textContent,#templatePreheader .textContent p{
+			font-size:14px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Header Text
-	@tip Make the header text larger in size for better readability on small screens.
+	Mobile Header Text
 	*/
-		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
+		#templateHeader .textContent,#templateHeader .textContent p{
+			font-size:16px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Body Text
-	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	Mobile Body Text
 	*/
-		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
+		#templateBody .textContent,#templateBody .textContent p{
+			font-size:16px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Column Text
-	@tip Make the column text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	Mobile Column Text
 	*/
-		#templateColumns .columnContainer .mcnTextContent,#templateColumns .columnContainer .mcnTextContent p{
-			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:150% !important;
+		#templateColumns .columnContainer .textContent,#templateColumns .columnContainer .textContent p{
+			font-size:16px !important;
+			line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
-	@tab Mobile Styles
-	@section Footer Text
-	@tip Make the footer content text larger in size for better readability on small screens.
+	Mobile Footer Text
 	*/
-		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:150% !important;
+		#templateFooter .textContent,#templateFooter .textContent p{
+			font-size:14px !important;
+			line-height:150% !important;
 		}
 
 }</style></head>
     <body>
-        <!--*|IF:MC_PREVIEW_TEXT|*-->
-        <!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
-        <!--*|END:IF|*-->
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
                 <tr>
@@ -619,10 +575,10 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="textContentContainer">
                     <tbody><tr>
 
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">
+                        <td valign="top" class="textContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">
 
                             <a href="*|ARCHIVE|*" target="_blank">View this email in your browser</a>
                         </td>
@@ -658,16 +614,16 @@
                                     <![endif]-->
                                     <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
                                         <tr>
-                                            <td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
-    <tbody class="mcnImageBlockOuter">
+                                            <td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="imageBlock" style="min-width:100%;">
+    <tbody class="imageBlockOuter">
             <tr>
-                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                <td valign="top" style="padding:9px" class="imageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="imageContentContainer" style="min-width:100%;">
                         <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                            <td class="imageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
 
 
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/397a4ece-c673-4f29-81a5-f25c8d5626a2.png" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/397a4ece-c673-4f29-81a5-f25c8d5626a2.png" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="image">
 
 
                             </td>
@@ -688,12 +644,14 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="textContentContainer">
                     <tbody><tr>
 
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">
-
-                            <div style="text-align: center;"><span style="font-size:12px">vol. 3, issue 11&nbsp;| november 2019</span></div>
+                        <td valign="top" class="textContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">
+<!--
+⚠️ Update date for each issue
+-->
+                            <div style="text-align: center;"><span style="font-size:12px">vol. 3, issue 12&nbsp;| december 2019</span></div>
 
                         </td>
                     </tr>
@@ -744,10 +702,13 @@
 
                         <td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
 
-                            <table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #E9E6E6;">
+                            <table border="0" cellspacing="0" class="textContentContainer" width="100%" style="min-width: 100% !important;background-color: #E9E6E6;">
                                 <tbody><tr>
-                                    <td valign="top" class="mcnTextContent" style="padding: 18px;color: #363636;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;font-size: 14px;font-weight: normal;text-align: center;">
+                                    <td valign="top" class="textContent" style="padding: 18px;color: #363636;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;font-size: 14px;font-weight: normal;text-align: center;">
                                         <div style="text-align: center;">In this issue:<br />
+<!--
+⚠️ Update anchor links to reflect current content
+-->
 <a href="#Letter" target="_blank">People-ing is hard</a><br />
 <a href="#Patreon" target="_blank"><em>The ADHD Homestead</em> goes ad-free</a><br />
 <a href="#TOTM" target="_blank">People-ing is hard (reprise)</a></div>
@@ -781,42 +742,63 @@
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="textContentContainer">
                     <tbody><tr>
 
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;">
+                        <td valign="top" class="textContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;">
 
                             <h3 class="null" style="text-align: left;">Dear friends,<br />
 <img align="right" data-file-id="3797241" height="299" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/_compresseds/95912e56-74fd-45f6-8c58-cd3e123563e7.jpg" style="border: 0px  ; width: 200px; height: 299px; margin: 0px 0px 10px 10px;" width="200"></h3>
 
-<p dir="ltr" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;"><a id="Letter" name="Letter"></a></p>
 
-<p style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;">I was talking to Liz over at <a href="https://healthyadhd.com/" target="_blank">Healthy ADHD</a> last week about balancing our unique needs and sensitivities with our obligations and responsibilities to others.<br />
-<br />
-Others look to us to do or be certain things. Sometimes their expectations are unreasonable, but sometimes perfectly reasonable expectations conflict with our brain chemistry.<br />
-<br />
-This comes out in a lot of places in our lives, but the holidays lay it on thick. Here are some common triggers:</p>
+<!--
+⚠️ Paste monthly letter text below
+-->
 
-<ul>
-	<li>Big family gatherings feel <strong>overstimulating</strong></li>
-	<li>We get <strong>overwhelmed</strong> by the demands of hosting, traveling, and gift shopping</li>
-	<li>Less time at work leaves us <strong>playing catch-up</strong></li>
-	<li><strong>Kids </strong>stay up late, get off their regular routine,&nbsp;and perhaps get overwhelmed and overstimulated as easily as we do</li>
-	<li>Extended family members may <strong>self-medicate</strong> their own unmanaged ADHD by arguing with us about politics, drinking too much, criticizing our life choices, etc.</li>
-	<li>Family may <strong>look to us to organize</strong> gift shopping, travel schedules, packing, etc. while they go about business as usual</li>
-	<li>Parents or in-laws compare us to our siblings or their children, question our decision to medicate our children's&nbsp;ADHD, and/or give <strong>unsolicited parenting advice</strong> during a stressful moment</li>
-	<li>We stay up late and make&nbsp;<strong>unhealthy choices</strong> with food and alcohol, which leaves us feeling yucky the next day</li>
-	<li>Visiting family (or family we’re visiting) eats and sleeps on a different schedule than we do and expects us to <strong>go with the flow</strong></li>
-	<li>We&nbsp;<strong>forget our meds</strong></li>
-</ul>
+<p><a id="Letter"></a>
+  Words change lives.
 
-<p style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;">I could go on! People with ADHD can’t always go with the flow. Disruptions and triggers often have a bigger effect on us than they would a neurotypical person.</p>
-
-<p style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;">That’s life. If you’re an extroverted, go-with-the-flow type person, great! If you look forward to the holidays with a mix of excitement, exhaustion, joy, and resentment, my tip of the month below is for you </p></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
-    <tbody class="mcnDividerBlockOuter">
+<p>
+  I’ve seen this many times over the past five years of writing <i>The ADHD Homestead</i>. People write to tell me my words have helped them start to make sense of their lives. They feel hopeful for the first time they can remember. Just knowing others have been where they are gives them strength.
+</p>
+<p>
+  But some of us ADHDers struggle with words. Books have always been my escape, my hyperfocus jam, but I know I’m lucky.
+</p>
+<p>
+  My husband never read books until he got an Audible subscription. I hadn’t placed much stock in audio content before that — probably because I’m both a bad listener and a good reader — but his experience changed my perspective completely. Audio felt important. No, indispensable.
+</p>
+<p>
+  I’ve put off producing audio content for <i>The ADHD Homestead</i> for several years but these thank-you letters I get from readers have made me wonder: how many more people could I reach with audio? How many people just like these letter-writers would never read my posts unless they could listen?
+</p>
+<p>
+  I know the answer is at least one — I live with him. Other readers and followers have told me they want to give my book to a spouse but they’ll “only read it if it’s audio.”
+</p>
+<p>
+  A few weeks ago I created a Patreon. At first I didn’t really have any goals for it. It was just a part of taking my site ad-free this fall.
+</p>
+<p>
+  Then I realized I could use it for something more meaningful.
+</p>
+<p>
+  Yes, I’ve been putting off the audio content. It’s a lot of work and like I said, listening isn’t my strong suit. But I suspect you know someone who’s a better listener than reader, and I don’t want to leave y’all out.
+</p>
+<p>
+  When I hit 30 patrons, I’ll start posting both audio and text versions of my posts. Become one of those first 30 and help me make it happen for the cost of a single black coffee every month. I’ll drink it while I record 😉
+</p>
+<p>
+  I’m also opening up a conversation for my folks on Patreon. Patrons can now see drafts of posts a week before they’re published and participate in a Q&A thread. I’m excited for these conversations and looking forward to incorporating your feedback into not just the written posts but the audio ones as well.
+</p>
+<p>
+  Have specific requests for audio content? Please let me know! I’m looking forward to exploring this new medium in 2020.
+</p>
+<p>
+  All the best,
+</p>
+</p></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="dividerBlock" style="min-width:100%;">
+    <tbody class="dividerBlockOuter">
         <tr>
-            <td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #EAEAEA;">
+            <td class="dividerBlockInner">
+                <table class="contentDividerElement" border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tbody><tr>
                         <td>
                             <span></span>
@@ -824,22 +806,53 @@ This comes out in a lot of places in our lives, but the holidays lay it on thick
                     </tr>
                 </tbody></table>
 <!--
-                <td class="mcnDividerBlockInner" style="padding: 18px;">
-                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+                <td class="dividerBlockInner" style="padding: 18px;">
+                <hr class="contentDividerElement" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
-    <tbody class="mcnImageBlockOuter">
+</table>
+
+<br />
+<tbody class="dividerBlockOuter">
+    <tr>
+        <td class="dividerBlockInner">
+            <table class="contentDividerElement" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr>
+                    <td>
+                        <span></span>
+                    </td>
+                </tr>
+            </tbody>
+<table class="embeddedSocialMediaContainer">
+  <tbody><tr><td class="embeddedSocialMedia">
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/B6ObLpjpR_3/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B6ObLpjpR_3/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B6ObLpjpR_3/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Jaclyn ☕️ The ADHD Homestead (@jaclynpaulwriter)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-12-18T19:24:00+00:00">Dec 18, 2019 at 11:24am PST</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+  </tbody></tr></td>
+</table>
+<tbody class="dividerBlockOuter">
+    <tr>
+        <td class="dividerBlockInner">
+            <table class="contentDividerElement" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr>
+                    <td>
+                        <span></span>
+                    </td>
+                </tr>
+            </tbody>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="imageBlock" style="min-width:100%;">
+    <tbody class="imageBlockOuter">
             <tr>
-                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                <td valign="top" style="padding:9px" class="imageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="imageContentContainer" style="min-width:100%;">
                         <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                            <td class="imageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
 
                                     <a href="https://www.patreon.com/ADHDhomestead" title="" class="" target="_blank">
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/3307c956-40d8-4bce-a7e6-7899f0427a3e.png" width="434" style="max-width:434px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/3307c956-40d8-4bce-a7e6-7899f0427a3e.png" width="434" style="max-width:434px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="image">
                                     </a>
 
                             </td>
@@ -848,28 +861,12 @@ This comes out in a lot of places in our lives, but the holidays lay it on thick
                 </td>
             </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
-    <tbody class="mcnTextBlockOuter">
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="dividerBlock" style="min-width:100%;">
+    <tbody class="dividerBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
-              	<!--[if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]-->
-
-				<!--[if mso]>
-				<td valign="top" width="600" style="width:600px;">
-				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
-                    <tbody><tr>
-
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-
-                            <p><a id="Patreon" name="Patreon"></a>You might have noticed I took the ads out of <em>The ADHD Homestead</em> this fall. I’ve replaced them with more intentional ways to show your support that don’t involve selling your attention or your data. <a href="https://www.patreon.com/ADHDhomestead" target="_blank">Read more and become the first patron at my new Patreon site</a>! You can help <em>The ADHD Homestead</em> keep the lights on for the cost of a single cup of coffee every month </p></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
-    <tbody class="mcnDividerBlockOuter">
-        <tr>
-            <td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #EAEAEA;">
+            <td class="dividerBlockInner">
+                <table class="contentDividerElement" border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tbody><tr>
                         <td>
                             <span></span>
@@ -877,22 +874,22 @@ This comes out in a lot of places in our lives, but the holidays lay it on thick
                     </tr>
                 </tbody></table>
 <!--
-                <td class="mcnDividerBlockInner" style="padding: 18px;">
-                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+                <td class="dividerBlockInner" style="padding: 18px;">
+                <hr class="contentDividerElement" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
-    <tbody class="mcnImageBlockOuter">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="imageBlock" style="min-width:100%;">
+    <tbody class="imageBlockOuter">
             <tr>
-                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                <td valign="top" style="padding:9px" class="imageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="imageContentContainer" style="min-width:100%;">
                         <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                            <td class="imageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
 
 
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/c9f6e720-d84c-48f6-b036-1d97265406ef.png" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/c9f6e720-d84c-48f6-b036-1d97265406ef.png" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="image">
 
 
                             </td>
@@ -913,32 +910,35 @@ This comes out in a lot of places in our lives, but the holidays lay it on thick
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="textContentContainer">
                     <tbody><tr>
 
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-
-                            <p>In <a href="https://adhdhomestead.net/orderfromchaos/" target="_blank"><em>Order From Chaos</em></a> I talk a lot about the person we see in ourselves. Who do you want to be? What role do you want to play in your family? What are your deepest values?<br />
-<br />
-During the holidays we often struggle to be that person for our families without driving ourselves crazy.<br />
-<br />
-My tip this month is: take care of yourself so you can be there for others.<br />
-<br />
-I’m an introvert who married into a large family of enthusiastic socializers. While I tried to roll with them for the first few years we knew each other, age and parenthood eventually caught up to me. I don’t have the energy I used to have. I can’t stay up until the wee hours of the morning, nor can I spend every waking hour involved in conversation.&nbsp;<br />
-<br />
-And yet it’s tough to do my own thing when we stay with people who have a very different lifestyle. Here are the coping strategies I’ve developed for those multi-day visits:</p>
-
-<ul>
-	<li><strong>Give hosts a heads up about our schedule</strong>. When we stay with family or friends I always mention what time we eat dinner and go to bed. Both my kid and I are a hot mess if we don’t eat dinner around 6:00. He goes to bed at 7:30 or 8:00. A 7:30 dinner reservation simply won't cut it. Most hosts prefer to know this and accommodate it rather than have you be miserable the whole time you’re with them.</li>
-	<li><strong>Take small chunks of time for myself</strong>: go for a run around the neighborhood, read a book in another room, excuse myself to catch up on some work.</li>
-	<li><strong>Go to bed on time</strong>. Yes, that means I miss out on social time. Many adults stay up later than I do. I like to be asleep by 11:00 and up by 6:30. I wake up by 7:00 regardless, so any late-night shenanigans translate directly to lost sleep.</li>
-	<li><strong>Take my meds</strong>. No explanation needed here, this is not the time to forget meds.</li>
-	<li><strong>Put my kiddo to bed (roughly) on time</strong>. The only thing worse than being underslept and overstimulated myself is having my kiddo feel the same way. If I&nbsp;let him stay up late for a special event or party,&nbsp;I make sure he’s in bed on time both nights before and after.</li>
-	<li><strong>Don’t say yes to everything</strong>.&nbsp;I say no to a board game if I think I may be asleep in my chair by the time it’s over. If I’m not interested in the movie everyone’s watching in the family room, I go read a book instead — movies aren’t quality time anyway. This gives me more energy for the stuff I really shouldn't flake out on.</li>
-	<li><strong>Be willing to look uncool</strong>. Every one of the above sometimes makes me look different than the rest of the crowd. Some make me seem less fun or cool. All increase my ability to actually be fun and cool during the time I spend with friends and family.</li>
-</ul>
-
-<p>I hope this helps some of you as well. It’s a jungle out there!</p>
+                        <td valign="top" class="textContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+<!--
+⚠️ Paste Tip of the month text below
+-->
+                            <p><a id="TOTM"></a>
+                              I have a complicated relationship with New Year’s resolutions. Maybe you do too. They feel so exciting at the time, yet so disappointing when we fail to stick to them!
+                            </p>
+                              If you make resolutions this year, do so with care and compassion.  Make your resolutions:
+                            </p><ol>
+                              <li>
+                              Something you can control no matter what. Don’t make a resolution that depends on your health, schedule, or any or anything outside yourself to succeed.
+                            </li><li>
+                              Possible even on your worst day. I highly recommend Stephen Guise’s book <i>Mini Habits</i> for more on creating sustainable habits and goals.
+                            </li><li>
+                              Meaningful. Check out the section in my book <i>Order From Chaos</i> on finding your Why. Tie your resolutions to your deepest values and desires. Otherwise they’re just a distraction.
+                            </li><li>
+                              For you and you alone. Don’t make resolutions that’ll look good in one of those Instagram checklist templates or sound impressive to friends you tell at a New Year’s party. Make resolutions that get you closer to your ideal life.
+                            </li><li>
+                              More about intention than results. This is your chance to change the way you see the world. We can set goals any old time. A new year provides an opportunity to open a different chapter.
+                            </li></ol>
+                            <p>
+                              I’m making a resolution to be more intentional with my time in 2020: less multi-tasking, more single-tasking. Sometimes that’s as simple as closing all my open browser tabs and quitting Mail before I begin work on a task. Little changes like this can give us big insights into our work.
+                            </p>
+                            <p>
+                              What are you resolving to see and do differently in 2020?
+                            </p>
 
                         </td>
                     </tr>
@@ -1157,11 +1157,11 @@ And yet it’s tough to do my own thing when we stay with people who have a very
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
-    <tbody class="mcnDividerBlockOuter">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="dividerBlock" style="min-width:100%;">
+    <tbody class="dividerBlockOuter">
         <tr>
-            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 10px 18px 25px;">
-                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #EEEEEE;">
+            <td class="dividerBlockInner">
+                <table class="contentDividerElement" border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tbody><tr>
                         <td>
                             <span></span>
@@ -1169,8 +1169,8 @@ And yet it’s tough to do my own thing when we stay with people who have a very
                     </tr>
                 </tbody></table>
 <!--
-                <td class="mcnDividerBlockInner" style="padding: 18px;">
-                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+                <td class="dividerBlockInner" style="padding: 18px;">
+                <hr class="contentDividerElement" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
             </td>
         </tr>
@@ -1187,10 +1187,10 @@ And yet it’s tough to do my own thing when we stay with people who have a very
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="textContentContainer">
                     <tbody><tr>
 
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        <td valign="top" class="textContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
 
                             <em>Copyright © 2020 Summit to Sea, LLC. All rights reserved.</em><br />
 You received this email because you expressed interest in The ADHD Homestead.
@@ -1206,7 +1206,6 @@ Baltimore, MD 21209
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
 				<!--[if mso]>
 				</tr>
 				</table>
