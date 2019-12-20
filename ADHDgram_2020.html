@@ -19,6 +19,7 @@
 		p{
 			margin:10px 0;
 			padding:0;
+      font-family:Helvetica;
 		}
 		table{
 			border-collapse:collapse;
@@ -99,7 +100,6 @@
 		}
 	/*
 	Page Background Style
-	Sets the email's background color and top border.
 	*/
 		body,#bodyTable{
 			background-color:#FAFAFA;
@@ -234,10 +234,19 @@
 	Header Links
 	*/
 		#templateHeader .textContent a,#templateHeader .textContent p a{
-			/*@editable*/color:#C6DFCA;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
+			color:#C6DFCA;
+			font-weight:normal;
+			text-decoration:underline;
 		}
+  /*
+  Header date info
+  */
+  p.headerIssueDate{
+    font-size:12px;
+    font-family:Helvetica;
+    text-align:center;
+  }
+
 	/*
   Body Style
 	*/
@@ -582,79 +591,29 @@
                     <tr>
                       <td valign="top" class="headerContainer">
                         <img align="center" alt="The ADHDgram" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/397a4ece-c673-4f29-81a5-f25c8d5626a2.png" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="image">
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="imageBlock" style="min-width:100%;">
-    <tbody class="imageBlockOuter">
-            <tr>
-                <td valign="top" style="padding:9px" class="imageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="imageContentContainer" style="min-width:100%;">
-                        <tbody><tr>
-                            <td class="imageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
-
-
-                                        <!-- header image was here -->
-
-
-                            </td>
-                        </tr>
-                    </tbody></table>
-                </td>
-            </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
-    <tbody class="mcnTextBlockOuter">
-        <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
-              	<!--[if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]-->
-
-				<!--[if mso]>
-				<td valign="top" width="600" style="width:600px;">
-				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="textContentContainer">
-                    <tbody><tr>
-
-                        <td valign="top" class="textContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">
-<!--
-⚠️ Update date for each issue
--->
-                            <div style="text-align: center;"><span style="font-size:12px">vol. 3, issue 12&nbsp;| december 2019</span></div>
-
-                        </td>
+                      </td>
                     </tr>
-                </tbody></table>
-				<!--[if mso]>
-				</td>
-				<![endif]-->
-
-				<!--[if mso]>
-				</tr>
-				</table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table></td>
-                                        </tr>
-                                    </table>
-                                    <!--[if (gte mso 9)|(IE)]>
-                                    </td>
-                                    </tr>
-                                    </table>
-                                    <![endif]-->
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center" valign="top" id="templateBody">
-                                    <!--[if (gte mso 9)|(IE)]>
-                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-                                    <tr>
-                                    <td align="center" valign="top" width="600" style="width:600px;">
-                                    <![endif]-->
-                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
-                                        <tr>
-                                            <td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100%;">
+                    <tr>
+                      <td class="headerContainer">
+                        <!--
+                        ⚠️ Update date for each issue
+                        -->
+                        <p id="templateHeader" class="headerIssueDate">vol. 3, issue 12&nbsp;| december 2019</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr id="TOC" style="border:12px dotted red;">
+                <td align="center" valign="top" id="templateBody">
+                <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                <tr>
+                <td align="center" valign="top" width="600" style="width:600px;">
+                <![endif]-->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                    <tr>
+                      <td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100%;">
     <!--[if gte mso 9]>
 	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
 	<![endif]-->
