@@ -102,10 +102,11 @@
 	Page Background Style
 	*/
 		body,#bodyTable{
-			background-color:#FAFAFA;
+			background-color:#FFFFFF;
 		}
 		#bodyCell{
 			border-top:0;
+      background-color:#FFFFFF
 		}
 
   /*
@@ -115,6 +116,14 @@
   td.dividerBlockInner{
     min-width:100%;
     padding:18px;
+    border:6px dotted green;
+  }
+
+  hr.dividerElement{
+    width:100%;
+    align:center;
+    border-top:2px solid #678294;
+    border-radius:1px;
   }
 
   table.contentDividerElement{
@@ -247,6 +256,31 @@
     text-align:center;
   }
 
+  /*
+  TOC style
+  */
+  td.tocContainer{
+    background-color:#e8e8e9;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+  }
+
+  #TOC p{
+    color:#1C1F26;
+    font-family:Helvetica;
+    font-size:16px;
+    line-height:150%;
+    text-align:center;
+    font-weight:normal;
+  }
+
+  #TOC p a{
+    color:#2D5C75;
+    font-weight:normal;
+    text-decoration:none;
+  }
+
 	/*
   Body Style
 	*/
@@ -270,6 +304,7 @@
 			font-size:16px;
 			line-height:150%;
 			text-align:left;
+      font-weight:normal;
 		}
 	/*
   Body Links
@@ -562,6 +597,7 @@
           <tr>
             <td align="center" valign="top" id="bodyCell">
             <!-- BEGIN TEMPLATE // -->
+            <table id="contentTable">
               <tr id="preheader">
                 <td align="center" valign="top" id="templatePreheader">
 
@@ -604,7 +640,7 @@
                   </table>
                 </td>
               </tr>
-              <tr id="TOC" style="border:12px dotted red;">
+              <tr id="TOC">
                 <td align="center" valign="top" id="templateBody">
                 <!--[if (gte mso 9)|(IE)]>
                 <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
@@ -613,133 +649,45 @@
                 <![endif]-->
                   <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
                     <tr>
-                      <td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100%;">
-    <!--[if gte mso 9]>
-	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
-	<![endif]-->
-	<tbody class="mcnBoxedTextBlockOuter">
-        <tr>
-            <td valign="top" class="mcnBoxedTextBlockInner">
-
-				<!--[if gte mso 9]>
-				<td align="center" valign="top" ">
-				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnBoxedTextContentContainer">
-                    <tbody><tr>
-
-                        <td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
-
-                            <table border="0" cellspacing="0" class="textContentContainer" width="100%" style="min-width: 100% !important;background-color: #E9E6E6;">
-                                <tbody><tr>
-                                    <td valign="top" class="textContent" style="padding: 18px;color: #363636;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;font-size: 14px;font-weight: normal;text-align: center;">
-                                        <div style="text-align: center;">In this issue:<br />
-<!--
-⚠️ Update anchor links to reflect current content
--->
-<a href="#Letter" target="_blank">People-ing is hard</a><br />
-<a href="#Patreon" target="_blank"><em>The ADHD Homestead</em> goes ad-free</a><br />
-<a href="#TOTM" target="_blank">People-ing is hard (reprise)</a></div>
-
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                        </td>
+                      <td valign="top" class="tocContainer">
+                        <p>In this issue:<br />
+                        <!--
+                        ⚠️ Update anchor links to reflect current content
+                        -->
+                        <a href="#Letter" target="_blank">People-ing is hard</a><br />
+                        <a href="#Patreon" target="_blank"><em>The ADHD Homestead</em> goes ad-free</a><br />
+                        <a href="#TOTM" target="_blank">People-ing is hard (reprise)</a></p>
+                      </td>
                     </tr>
-                </tbody></table>
-				<!--[if gte mso 9]>
-				</td>
-				<![endif]-->
+                  </table>
+                </td>
+              </tr>
+              <tr id="mainBody" style="border:12px dotted red;">
+                <td align="center" valign="top" class="templateBody">
+                <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                <tr>
+                <td align="center" valign="top" width="600" style="width:600px;">
+                <![endif]-->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                    <tr id="introLetter">
+                      <td class="textContentContainer">
+                            <h3 class="null" style="text-align: left;">Dear friends,</h3><br />
+                              <img align="right" data-file-id="3797241" height="299" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/_compresseds/95912e56-74fd-45f6-8c58-cd3e123563e7.jpg" style="border: 0px  ; width: 200px; height: 299px; margin: 0px 0px 10px 10px;" width="200">
+                              <!--
+                              ⚠️ Paste monthly letter text below
+                              -->
+                              <p id="Letter">Letter goes here</p>
 
-				<!--[if gte mso 9]>
-                </tr>
-                </table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
-    <tbody class="mcnTextBlockOuter">
-        <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
-              	<!--[if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]-->
-
-				<!--[if mso]>
-				<td valign="top" width="600" style="width:600px;">
-				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="textContentContainer">
-                    <tbody><tr>
-
-                        <td valign="top" class="textContent" style="padding: 0px 18px 9px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif;">
-
-                            <h3 class="null" style="text-align: left;">Dear friends,<br />
-<img align="right" data-file-id="3797241" height="299" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/_compresseds/95912e56-74fd-45f6-8c58-cd3e123563e7.jpg" style="border: 0px  ; width: 200px; height: 299px; margin: 0px 0px 10px 10px;" width="200"></h3>
-
-
-<!--
-⚠️ Paste monthly letter text below
--->
-
-<p><a id="Letter"></a>
-  Words change lives.
-
-<p>
-  I’ve seen this many times over the past five years of writing <i>The ADHD Homestead</i>. People write to tell me my words have helped them start to make sense of their lives. They feel hopeful for the first time they can remember. Just knowing others have been where they are gives them strength.
-</p>
-<p>
-  But some of us ADHDers struggle with words. Books have always been my escape, my hyperfocus jam, but I know I’m lucky.
-</p>
-<p>
-  My husband never read books until he got an Audible subscription. I hadn’t placed much stock in audio content before that — probably because I’m both a bad listener and a good reader — but his experience changed my perspective completely. Audio felt important. No, indispensable.
-</p>
-<p>
-  I’ve put off producing audio content for <i>The ADHD Homestead</i> for several years but these thank-you letters I get from readers have made me wonder: how many more people could I reach with audio? How many people just like these letter-writers would never read my posts unless they could listen?
-</p>
-<p>
-  I know the answer is at least one — I live with him. Other readers and followers have told me they want to give my book to a spouse but they’ll “only read it if it’s audio.”
-</p>
-<p>
-  A few weeks ago I created a Patreon. At first I didn’t really have any goals for it. It was just a part of taking my site ad-free this fall.
-</p>
-<p>
-  Then I realized I could use it for something more meaningful.
-</p>
-<p>
-  Yes, I’ve been putting off the audio content. It’s a lot of work and like I said, listening isn’t my strong suit. But I suspect you know someone who’s a better listener than reader, and I don’t want to leave y’all out.
-</p>
-<p>
-  When I hit 30 patrons, I’ll start posting both audio and text versions of my posts. Become one of those first 30 and help me make it happen for the cost of a single black coffee every month. I’ll drink it while I record 😉
-</p>
-<p>
-  I’m also opening up a conversation for my folks on Patreon. Patrons can now see drafts of posts a week before they’re published and participate in a Q&A thread. I’m excited for these conversations and looking forward to incorporating your feedback into not just the written posts but the audio ones as well.
-</p>
-<p>
-  Have specific requests for audio content? Please let me know! I’m looking forward to exploring this new medium in 2020.
-</p>
-<p>
-  All the best,
-</p>
-</p></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="dividerBlock" style="min-width:100%;">
-    <tbody class="dividerBlockOuter">
-        <tr>
-            <td class="dividerBlockInner">
-                <table class="contentDividerElement" border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tbody><tr>
-                        <td>
-                            <span></span>
-                        </td>
+                      </td>
                     </tr>
-                </tbody></table>
-<!--
-                <td class="dividerBlockInner" style="padding: 18px;">
-                <hr class="contentDividerElement" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
--->
-            </td>
-        </tr>
-    </tbody>
-</table>
+                    <tr style="border:12px dottted green;">
+                      <td class="dividerBlockInner">
+                        <hr class="dividerElement" />
+                      </td>
+                    </tr>
+
+              </tr>
 
 <br />
 <tbody class="dividerBlockOuter">
@@ -1150,7 +1098,7 @@ Baltimore, MD 21209
                                     <![endif]-->
                                 </td>
                             </tr>
-
+            </table>
             <!-- // END TEMPLATE -->
             </td> <!-- end bodyCell -->
           </tr>
