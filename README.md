@@ -5,7 +5,7 @@ This is the basic template for the _ADHDgram_.
 ## Adding new sections
 
 ### Single-column section
-
+```html
 <td align="center" valign="top" class="templateBody">
   <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
     <tr id="descriptionOfContent">
@@ -16,3 +16,4 @@ This is the basic template for the _ADHDgram_.
     </tr>
   </table>
 </td>
+```
