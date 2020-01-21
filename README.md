@@ -10,11 +10,11 @@ Important steps to remember when sending an _ADHDgram_:
 ## Adding new sections
 Main body sections are structured as follows, from the outermost container to the innermost:
 1. Table row with descriptive ID
-..* e.g. introLetterRow, patreonCTARow
+* e.g. introLetterRow, patreonCTARow
 2. Table cell with class bodyContentBlockOuter
 3. Table with class bodyContentBlockInner
 4. Table row with id property that helps identify content
-..* e.g. introLetter, patreonCTA
+* e.g. introLetter, patreonCTA
 5. Table cell with class textContentContainer
 
 ### Single-column section
@@ -39,7 +39,7 @@ Main body sections are structured as follows, from the outermost container to th
 ### Horizontal divider
 Horizontal divider code should be placed within the bodyContentBlockInner table.
 ```html
-<tr id="horizontalDivider">
+<tr>
   <td class="dividerBlockInner">
     <hr class="dividerElement" />
   </td>
