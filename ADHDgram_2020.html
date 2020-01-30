@@ -20,7 +20,20 @@
 			margin:10px 0;
 			padding:0;
       font-family:Helvetica;
+      color:#1C1F26;
 		}
+
+    p.announcement{
+      color:#626c84;
+      text-align: center;
+    }
+
+    a{
+      color:#8BB2A7;
+			font-weight:normal;
+			text-decoration:none;
+    }
+
 		table{
 			border-collapse:collapse;
 		}
@@ -35,12 +48,43 @@
 			outline:none;
 			text-decoration:none;
 		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
+
+    img.profilePic{
+      padding: 5px;
+      word-wrap: normal;
+      float: right;
+      max-width: 200px;
+    }
+
+    img.signature{
+      padding: 5px;
+      max-width: 100px;
+      float: left;
+    }
+
+    img.patreonBanner{
+      max-width: 400px;
+      padding: 10px;
+      float: none;
+    }
+
+    table, body #bodyTable{
+      height:100%;
+      border:0;
+      cellpadding:0;
+      cellspacing:0;
+      align:center;
+      width:600px;
+    }
+    @media only screen and (max-width:600px){
+      table, body #bodyTable{
+        border:inherit;
+        cellpadding:inherit;
+        cellspacing:inherit;
+        align:inherit;
+        width:80%;
+      }
+    }
 		#outlook a{
 			padding:0;
 		}
@@ -182,42 +226,11 @@
 			letter-spacing:normal;
 			text-align:left;
 		}
-	/*
-	Preheader Body Style
-	*/
-		#templatePreheader{
-			background-color:#1C1F26;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:9px;
-			padding-bottom:9px;
-		}
-	/*
-	Preheader Text Style
-	*/
-		#templatePreheader .textContent,#templatePreheader .textContent p{
-			color:#FFFFFF;
-			font-family:Helvetica;
-			font-size:12px;
-			line-height:150%;
-			text-align:left;
-		}
-	/*
-	Preheader Link Style
-	*/
-		#templatePreheader .textContent a,#templatePreheader .textContent p a{
-			color:#C6DFCA;
-			font-weight:normal;
-			text-decoration:underline;
-		}
+
 	/*
 	Header Style
 	*/
-		#templateHeader{
+		td.headerContentBlockOuter{
 			background-color:#FFFFFF;
 			background-image:none;
 			background-repeat:no-repeat;
@@ -231,27 +244,8 @@
 	/*
 	Header Text
 	*/
-		#templateHeader .textContent,#templateHeader .textContent p{
-			color:#202020;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-	/*
-	Header Links
-	*/
-		#templateHeader .textContent a,#templateHeader .textContent p a{
-			color:#C6DFCA;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-  /*
-  Header date info
-  */
   p.headerIssueDate{
     font-size:12px;
-    font-family:Helvetica;
     text-align:center;
   }
 
@@ -259,19 +253,15 @@
   TOC style
   */
   td.tocContainer{
-    background-color:#E4CF84;
+    background-color:#e2e4e9;
     padding-top:5px;
     padding-bottom:5px;
     text-align:center;
+    vertical-align:top;
   }
 
   #TOC p{
-    color:#1C1F26;
-    font-family:Helvetica;
-    font-size:16px;
-    line-height:150%;
     text-align:center;
-    font-weight:normal;
   }
 
   #TOC p a{
@@ -283,28 +273,29 @@
 	/*
   Body Style
 	*/
-		#bodyContentBlockOuter{
+		td.bodyContentBlockOuter{
 			background-color:#FFFFFF;
 			background-image:none;
 			background-repeat:no-repeat;
 			background-position:center;
 			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
+			border:0;
+			vertical-align:top;
+      align:center;
 		}
 	/*
 	Body Text
 	*/
-		#bodyContentBlockOuter .textContent,#bodyContentBlockOuter .textContent p{
-			color:#1C1F26;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:175%;
+
+    table.bodyContentBlockInner{
+      font-family:Helvetica;
+      font-size:16px;
+			line-height:150%;
 			text-align:left;
       font-weight:normal;
-		}
+      margin:0 auto;
+    }
+
 	/*
   Body Links
 	*/
@@ -607,44 +598,21 @@
 }</style></head>
     <body>
       <center>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        <table id="bodyTable">
           <tr>
             <td align="center" valign="top" id="bodyCell">
             <!-- BEGIN TEMPLATE // -->
             <table id="contentTable">
-              <tr id="preheader">
-                <td align="center" valign="top" id="templatePreheader">
-
-                <!--[if (gte mso 9)|(IE)]>
-                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-                <tr>
-                <td align="center" valign="top" width="600" style="width:600px;">
-                <![endif]-->
-
-                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bodyContentBlockInner">
-                    <tr>
-                      <td valign="top" class="textContent">
-                        <a href="*|ARCHIVE|*" target="_blank">View this email in your browser</a>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
               <tr id="header">
-                <td align="center" valign="top" id="templateHeader">
-                <!--[if (gte mso 9)|(IE)]>
-                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-                <tr>
-                <td align="center" valign="top" width="600" style="width:600px;">
-                <![endif]-->
-                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bodyContentBlockInner">
-                    <tr>
-                      <td valign="top" class="headerContainer">
+                <td class="headerContentBlockOuter">
+                  <table class="bodyContentBlockInner">
+                    <tr id="headerImage">
+                      <td>
                         <img align="center" alt="The ADHDgram" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/397a4ece-c673-4f29-81a5-f25c8d5626a2.png" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="image">
                       </td>
                     </tr>
-                    <tr>
-                      <td class="headerContainer">
+                    <tr id="headerVolumeIssueDate">
+                      <td>
                         <!--
                         ⚠️ Update date for each issue
                         -->
@@ -655,22 +623,16 @@
                 </td>
               </tr>
               <tr id="TOC">
-                <td align="center" valign="top" id="bodyContentBlockOuter">
-                <!--[if (gte mso 9)|(IE)]>
-                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-                <tr>
-                <td align="center" valign="top" width="600" style="width:600px;">
-                <![endif]-->
-                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bodyContentBlockInner">
+                <td class="bodyContentBlockOuter">
+                  <table class="bodyContentBlockInner">
                     <tr>
-                      <td valign="top" class="tocContainer">
+                      <td class="tocContainer">
                         <p>In this issue:<br />
                         <!--
                         ⚠️ Update anchor links to reflect current content
                         -->
                         <a href="#Letter" target="_blank">Harnessing restless feelings for good</a><br />
                         <a href="#Patreon" target="_blank">Read new posts before they're published 👀</a><br />
-                        <a href="#TOTM" target="_blank">People-ing is hard (reprise)</a></p>
                       </td>
                     </tr>
                   </table>
@@ -678,28 +640,54 @@
               </tr>
               <tr id="introLetterRow">
                 <a id="Letter"></a>
-                <td align="center" valign="top" id="letterContainer" class="bodyContentBlockOuter">
-                <!--[if (gte mso 9)|(IE)]>
-                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-                <tr>
-                <td align="center" valign="top" width="600" style="width:600px;">
-                <![endif]-->
-                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bodyContentBlockInner">
+                <td id="letterContainer" class="bodyContentBlockOuter">
+                  <table class="bodyContentBlockInner">
                     <tr id="introLetter">
                       <td class="textContentContainer">
-                        <h3 class="null" style="text-align: left;">Dear friends,</h3><br />
+                        <p class="announcement">
+                          🚨🚨🚨<br />I've switched up the <i>ADHDgram</i>'s design and email service provider. I appreciate your patience with any speed bumps we encounter. Please reply and let me know if anything looks funky! If you unsubscribed to a previous email and feel you've received this in error, please use the unsubscribe link at the bottom of this message.<br />
+                          🚨🚨🚨
+                        </p>
+                        <h3>Dear friends,</h3><br />
                           <!--
                           ⚠️ Paste monthly letter text below
                           -->
-                          <p id="Letter">Letter goes here</p>
+                          <p><img class="profilePic" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/_compresseds/95912e56-74fd-45f6-8c58-cd3e123563e7.jpg">It’s here again: the restless feeling about the state of my house that always precedes a complete blow-up.</p>
+
+                          <p>I let clutter build up around the holidays. I’ve put off projects — like repainting my living room — because I know they’ll be a pain in the neck. It’s gone on too long.</p>
+
+                          <p>I know the drill by now: I’ll get completely fed up, rant and rave about it to my family on a Saturday afternoon, then channel my anger into huge progress. Clutter will leave the house by the carton. Dirty nooks will get scrubbed with a toothbrush. I’ll brush off the flaking paint and put a coat of primer on the nasty baseboard behind the living room couch. I’ll sew and hang new curtains, pay a carpenter to make a pretty cover for the kitchen radiator, and dig up the back garden.</p>
+
+                          <p>And I’ll probably swear I’m turning over a new leaf. No more letting these projects build up until I feel humiliated and rage-y about them.</p>
+
+                          <p>That won’t last. Nothing ever does. I’ll go through another busy time and the backlog will return, kicking off a fresh round of the cycle.</p>
+
+                          <p>It’s easy for ADHDers to get cynical about this. Harder to accept this reality and work with it rather than against it. But accept it we must, as I insist in Rule #1 in <a href="https://adhdhomestead.net/orderfromchaos/"><i>Order from Chaos</i></a>. We can either spend our energy fighting our brains — and our reality — or figuring out a way to swim with the current.</p>
+
+                          <p>This month I’m anticipating a massive current of discontent and preparing myself to swim with it as far downstream as it’ll take me.</p>
+
+                          <p>I won’t fight the restlessness this time. I’ll open the door, let it in, and harness its energy to get a few pesky jobs accomplished.</p>
+
+                          <p>Then I’ll let it go peacefully when the time comes. I’ll accept that I didn’t accomplish everything I wanted to (probably because I wanted too much for the time I had available) and that I need to move on to other priorities I’ve surely neglected. That inspiration will return. It always does.</p>
+
+                          <p>Sometimes we need to force ourselves through something. Other times it’s not life-or-death and we can benefit from working with, not against, our natural inclinations.</p>
+
+                          <p>I’m thankful for the wisdom to accept that this is one of those times.</p>
+                          <p>
+                            xoxo,
+                          </p>
+                          <p>
+                            <img class="signature" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/f9548244-22c2-4545-a19f-67182b434c53.png">
+                          </p>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
               <tr id="patreonCTARow">
-                <td align="center" valign="top" class="bodyContentBlockOuter">
-                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bodyContentBlockInner">
+                <a id="Patreon"></a>
+                <td class="bodyContentBlockOuter">
+                  <table class="bodyContentBlockInner">
                     <tr>
                       <td class="dividerBlockInner">
                         <hr class="dividerElement" />
@@ -707,7 +695,6 @@
                     </tr>
                     <tr>
                       <td class="textContentContainer">
-                        <a id="Patreon"></a>
                         <h2 style="text-align: left;">New post drafts avaible for preview and Q&A!</h2><br />
                           <p>
                             It’s ski season, and I’ve been working ahead to give myself more time on the slopes between now and the end of February. I’ve put two draft posts up on the Patreon so far this month, with another on the way.
@@ -717,6 +704,9 @@
                           </p>
                           <p>
                             If you aren't a patron yet, you can join the fun for as little as $1 per month at <a href="https://www.patreon.com/ADHDhomestead">patreon.com/ADHDHomestead</a>
+                          </p>
+                          <p align="center">
+                            <a href="https://www.patreon.com/ADHDhomestead"><img class="patreonBanner" src="https://gallery.mailchimp.com/800f5301eee9e78dcdd27b14d/images/3307c956-40d8-4bce-a7e6-7899f0427a3e.png"></a>
                           </p>
                       </td>
                     </tr>
@@ -730,14 +720,16 @@
               </tr>
               <tr id="embeddedInstagramPostOuter">
                 <td align="center" valign="top" class="bodyContentBlockOuter">
-                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bodyContentBlockInner">
+                  <table class="bodyContentBlockInner">
                     <tr id="embeddedInstagramPostInner">
-                      <td class="textContentContainer">
+                      <td class="embeddedSocialMedia">
                         <h2>Popular on Instagram</h2><br />
                         <p>
                           Time blindness is a perennial issue for people with ADHD. I'm not surprised so many of you liked and shared this post!
                         </p>
+                        <p align="center">
                         <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/B7CKM3_pRSx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B7CKM3_pRSx/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B7CKM3_pRSx/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Jaclyn ☕️ The ADHD Homestead (@jaclynpaulwriter)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-01-07T21:36:07+00:00">Jan 7, 2020 at 1:36pm PST</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+                      </p>
                       </td>
                     </tr>
                   </table>
@@ -751,7 +743,7 @@
                 <td align="center" valign="top" width="600" style="width:600px;">
                 <![endif]-->
 
-                  <table align="center" border="0" cellpadding="5" cellspacing="0" width="100%" class="bodyContentBlockInner">
+                  <table class="bodyContentBlockInner">
                     <tr id="followBlockTopBorder">
                       <td class="dividerBlockInner">
                         <hr class="dividerElement" />

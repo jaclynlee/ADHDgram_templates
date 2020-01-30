@@ -21,8 +21,8 @@ Main body sections are structured as follows, from the outermost container to th
 
 ```html
 <tr id="descriptiveName">
-  <td align="center" valign="top" class="bodyContentBlockOuter">
-    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bodyContentBlockInner">
+  <td class="bodyContentBlockOuter">
+    <table class="bodyContentBlockInner">
       <tr id="descriptionOfContent">
         <td class="textContentContainer">
           <h2 style="text-align: left;">This is a header</h2><br />
