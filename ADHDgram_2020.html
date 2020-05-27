@@ -241,20 +241,6 @@
 		}
 
 	/*
-	Header Style
-	*/
-		td.headerContentBlockOuter{
-			background-color:#FFFFFF;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:9px;
-			padding-bottom:0;
-		}
-	/*
 	Header Text
 	*/
   p.headerIssueDate{
@@ -620,7 +606,7 @@
             <!-- BEGIN TEMPLATE // -->
             <table id="contentTable">
               <tr id="header">
-                <td class="headerContentBlockOuter">
+                <td> <!-- begin header content block -->
                   <table class="bodyContentBlockInner">
                     <tr id="headerSubscribeLink">
                       <td> <!-- headerSubscribeLink cell -->
@@ -646,7 +632,7 @@
                       </td>
                     </tr> <!-- end headerVolumeIssueDate -->
                   </table> <!-- end bodyContentBlockInner -->
-                </td> <!-- end headerContentBlockOuter -->
+                </td> <!-- end header content block -->
               </tr> <!-- end header -->
               <tr id="TOC">
                 <td class="bodyContentBlockOuter">
