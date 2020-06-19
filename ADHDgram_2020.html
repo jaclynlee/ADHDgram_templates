@@ -119,12 +119,7 @@
 			mso-table-lspace:0pt;
 			mso-table-rspace:0pt;
 		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
+
 		p,a,li,td,blockquote{
 			mso-line-height-rule:exactly;
 		}
@@ -137,9 +132,7 @@
 			-ms-text-size-adjust:100%;
 			-webkit-text-size-adjust:100%;
 		}
-		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
-			line-height:100%;
-		}
+
 		a[x-apple-data-detectors]{
 			color:inherit !important;
 			text-decoration:none !important;
@@ -151,10 +144,8 @@
 		.bodyContentBlockInner{
 			max-width:600px !important;
 		}
-		a.mcnButton{
-			display:block;
-		}
-		.image,.mcnRetinaImage{
+
+		.image{
 			vertical-align:bottom;
 		}
 		.textContent{
@@ -306,39 +297,6 @@
 		}
 
 	/*
-	Column Style
-	*/
-		#templateColumns{
-			background-color:#FFFFFF;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-		}
-	/*
-  Column Text
-	*/
-		#templateColumns .columnContainer .textContent,#templateColumns .columnContainer .textContent p{
-			color:#1C1F26;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-	/*
-	Column Links
-	*/
-		#templateColumns .columnContainer .textContent a,#templateColumns .columnContainer .textContent p a{
-			color:#8BB2A7;
-			font-weight:normal;
-			text-decoration:none;
-		}
-
-  /*
   Embedded Content
   */
 
@@ -392,81 +350,30 @@
 		}
 
 }	@media only screen and (max-width: 480px){
-		.columnWrapper{
-			max-width:100% !important;
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnRetinaImage{
-			max-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
 		.image{
 			width:100% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.textContentContainer,.mcnBoxedTextContentContainer,.imageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.imageCardLeftTextContentContainer,.imageCardRightTextContentContainer,.imageCardLeftImageContentContainer,.imageCardRightImageContentContainer{
+		.textContentContainer {
 			max-width:100% !important;
 			width:100% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.mcnBoxedTextContentContainer{
-			min-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.imageGroupContent{
-			padding:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionLeftContentOuter .textContent,.mcnCaptionRightContentOuter .textContent{
+		.textContent{
 			padding-top:9px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.imageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .textContent{
+		.textContent{
 			padding-top:18px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
-		.imageCardBottomImageContent{
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.imageGroupBlockInner{
-			padding-top:0 !important;
-			padding-bottom:0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.imageGroupBlockOuter{
-			padding-top:9px !important;
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.textContent,.mcnBoxedTextContentColumn{
+		.textContent {
 			padding-right:18px !important;
 			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.imageCardLeftImageContent,.imageCardRightImageContent{
-			padding-right:18px !important;
-			padding-bottom:0 !important;
-			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcpreview-image-uploader{
-			display:none !important;
-			width:100% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -509,7 +416,7 @@
 	/*
 	Mobile Boxed Text
 	*/
-		.mcnBoxedTextContentContainer .textContent,.mcnBoxedTextContentContainer .textContent p{
+		.textContent p{
 			font-size:14px !important;
 			line-height:150% !important;
 		}
@@ -537,18 +444,6 @@
 	Mobile Header Text
 	*/
 		#templateHeader .textContent,#templateHeader .textContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-
-
-}	@media only screen and (max-width: 480px){
-	/*
-	Mobile Column Text
-	*/
-		#templateColumns .columnContainer .textContent,#templateColumns .columnContainer .textContent p{
 			font-size:16px !important;
 			line-height:150% !important;
 		}
