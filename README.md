@@ -7,6 +7,7 @@ Important steps to remember when sending an _ADHDgram_:
 1. Update volume information under header image
 2. Update TOC
 3. Update links to hosted version
+4. Update Patron acknowledgements
 
 ## Adding new sections
 Main body sections are structured as follows, from the outermost container to the innermost:
