@@ -12,12 +12,12 @@ Important steps to remember when sending an _ADHDgram_:
 ## Adding new sections
 Main body sections are structured as follows, from the outermost container to the innermost:
 1. Table row with comment to distinguish it
-    * <!-- begin article row -->
+    * i.e., "begin article row"
 2. Table cell
 3. Table with class `bodyContentBlockInner`
 4. Table row
 5. Table cell with class `textContentContainer`
-6. <h2> tag with id property corresponding to TOC anchor link
+6. h2 tag with id property corresponding to TOC anchor link
 
 ### Single-column section example
 
