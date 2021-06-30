@@ -11,29 +11,39 @@ Important steps to remember when sending an _ADHDgram_:
 
 ## Adding new sections
 Main body sections are structured as follows, from the outermost container to the innermost:
-1. Table row with descriptive ID
-    * e.g. `introLetterRow`, `patreonCTARow`
+1. Table row with comment to distinguish it
+    * i.e., "begin article row"
 2. Table cell
 3. Table with class `bodyContentBlockInner`
-4. Table row with id property that helps identify content
-    * e.g. `introLetter`, `patreonCTA`
+4. Table row
 5. Table cell with class `textContentContainer`
+6. h2 tag with id property corresponding to TOC anchor link
 
-### Single-column section
+### Single-column section example
 
 ```html
-<tr id="articleTopicRow"> <!-- begin [article topic] section -->
-  <td>
-    <table class="bodyContentBlockInner">
-      <tr id="descriptionOfContent">
-        <td class="textContentContainer">
-          <h2>This is a header</h2><br />
-            <p>This is where your body text goes.</p>
-        </td> <!-- end textContentContainer -->
-      </tr>
-    </table> <!-- end bodyContentBlockInner -->
-  </td>
-</tr> <!-- end [article topic] section -->
+<tr> <!-- begin article row -->
+ <td> <!-- begin article content block -->
+   <table class="bodyContentBlockInner">
+     <tr> <!-- begin divider -->
+       <td class="dividerBlockInner">
+         <hr class="dividerElement" />
+       </td>
+     </tr> <!-- end divider -->
+     <tr>
+       <td class="textContentContainer">
+         <h2 id="article-1" style="text-align: left;">Section Title</h2>
+         <p>
+            Body text here!
+         </p>
+         <p>
+            Body text here!
+         </p>
+       </td>
+     </tr> <!-- end text content row -->
+   </table> <!-- end bodyContentBlockInner -->
+ </td> <!-- end article content block -->
+</tr> <!-- end article row -->
 ```
 
 ## Decorative elements
