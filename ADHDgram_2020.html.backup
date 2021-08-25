@@ -1,0 +1,750 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <!-- NAME: ADHDGRAM - FULL WIDTH -->
+        <!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The ADHDgram</title>
+
+    <style type="text/css">
+
+		p{
+			margin:10px 0;
+			padding:0;
+      font-family:Helvetica;
+      color:#1C1F26;
+      font-size: 16px;
+		}
+
+    @media only screen and (max-width:768px){
+  		p{
+        font-size: 20px;
+      }
+		}
+
+    p.announcement{
+      color:#626c84;
+      text-align: center;
+    }
+
+    a{
+      color:#8BB2A7;
+			font-weight:normal;
+			text-decoration:none;
+    }
+
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+
+    img.profilePic{
+      padding: 5px;
+      word-wrap: normal;
+      float: right;
+      max-width: 200px;
+    }
+
+    img.signature{
+      padding: 5px;
+      max-width: 100px;
+      float: left;
+    }
+
+    img.patreonBanner{
+      max-width: 400px;
+      padding: 10px;
+      float: none;
+    }
+
+    img.standardArticleGraphic{
+      max-width: 500px;
+      padding-left: 50px;
+      paddding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      float: none;
+    }
+
+    /*
+      Set total content width
+      Center content in container
+      Set background color
+    */
+    table, body #bodyTable{
+      height:100%;
+      border:0;
+      cellpadding:0;
+      cellspacing:0;
+      align:center;
+      width:600px;
+      background-color:#FFFFFF
+    }
+
+    @media only screen and (max-width:600px){
+      table, body #bodyTable{
+        border:inherit;
+        cellpadding:inherit;
+        cellspacing:inherit;
+        align:inherit;
+        width:80%;
+      }
+    }
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		.bodyContentBlockInner{
+			max-width:600px !important;
+		}
+
+		.image{
+			vertical-align:bottom;
+		}
+		.textContent{
+			word-break:break-word;
+		}
+		.textContent img{
+			height:auto !important;
+		}
+		.dividerBlock{
+			table-layout:fixed !important;
+		}
+
+
+  /*
+  Divider style
+  */
+
+  td.dividerBlockInner{
+    min-width:100%;
+    padding:18px;
+  }
+
+  hr.dividerElement{
+    width:100%;
+    align:center;
+    border-top:2px solid #678294;
+    border-radius:1px;
+  }
+
+  table.contentDividerElement{
+    min-width:100%;
+    border-top:2px solid #678294;
+  }
+
+	/*
+	Heading 1 Style
+	*/
+		h1{
+			color:#2D5C75;
+			font-family:Helvetica;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+	/*
+	Heading 2 Style
+	*/
+		h2{
+			color:#678294;
+			font-family:Helvetica;
+			font-size:22px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+	/*
+	Heading 3 Style
+	*/
+		h3{
+			color:#678294;
+			font-family:Helvetica;
+			font-size:16px;
+			font-style:normal;
+			font-weight:normal;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+
+    @media only screen and (max-width:768px){
+      h3{
+        font-size: 24px;
+      }
+    }
+
+	/*
+	Heading 4 Style
+	*/
+		h4{
+			color:#1C1F26;
+			font-family:Helvetica;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+
+	/*
+	Header Text
+	*/
+  p.headerIssueDate{
+    font-size:12px;
+    text-align:center;
+  }
+
+  p.headerSubscribeCTA{
+    color:#626c84;
+    text-align: center;
+    line-height: 125%;
+    font-size: 12px;
+  }
+
+  /*
+  TOC style
+  */
+  td.tocContainer{
+    background-color: #f0f3f5;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+    vertical-align:top;
+  }
+
+  #TOC p{
+    text-align:center;
+  }
+
+  #TOC p a{
+    color:#2D5C75;
+    font-weight:normal;
+    text-decoration:none;
+  }
+
+
+	/*
+	Body Text
+	*/
+
+    table.bodyContentBlockInner{
+      font-family:Helvetica;
+      font-size:16px;
+			line-height:150%;
+			text-align:left;
+      font-weight:normal;
+      margin:0 auto;
+    }
+
+    @media only screen and (max-width:768px){
+  		.bodyContentBlockInner{
+  			width:450px !important;
+      }
+		}
+
+	/*
+  Embedded Content
+  */
+
+    table.embeddedSocialMediaContainer{
+      align-items:center;
+      border:none;
+    }
+    td.embeddedSocialMedia{
+      align-items:center;
+      text-align:center;
+      border:none;
+    }
+
+	/*
+	Footer Style
+	*/
+
+    table.footerContentBlockInner{
+      background-color: #f0f3f5;
+      margin:0 auto;
+    }
+
+    .footerContentBlockInner p{
+      font-color: inherit;
+      font-family:Helvetica;
+			font-size:12px;
+			line-height:150%;
+			text-align:center;
+    }
+
+    .footerContentBlockInner a{
+      font-weight:normal;
+			text-decoration:underline;
+    }
+
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.image{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.textContentContainer {
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.textContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.textContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.textContent {
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Heading 1
+	*/
+		h1{
+			font-size:22px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Heading 2
+	*/
+		h2{
+			font-size:20px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Heading 3
+	*/
+		h3{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Heading 4
+	*/
+		h4{
+			font-size:16px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Boxed Text
+	*/
+		.textContent p{
+			font-size:14px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Preheader Visibility
+  Hide preheader to save space on smaller screens
+	*/
+		#templatePreheader{
+			display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Preheader Text
+	*/
+		#templatePreheader .textContent,#templatePreheader .textContent p{
+			font-size:14px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Header Text
+	*/
+		#templateHeader .textContent,#templateHeader .textContent p{
+			font-size:16px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	Mobile Footer Text
+	*/
+		#footerContent .textContent,#footerContent .textContent p{
+			font-size:14px !important;
+			line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+      <center>
+        <table id="bodyTable">
+          <tr>
+            <td align="center" valign="top" id="bodyCell">
+            <!-- BEGIN TEMPLATE // -->
+            <table id="contentTable">
+              <tr id="header">
+                <td> <!-- begin header content block -->
+                  <table class="bodyContentBlockInner">
+                    <tr id="headerSubscribeLink">
+                      <td> <!-- headerSubscribeLink cell -->
+                        <p class="headerSubscribeCTA">
+                          Did someone forward this email to you? <a href="https://mailtrain.adhdhomestead.net/subscription/PiNkJ0cp">Click here to subscribe!</a>
+                        </p>
+                        <p class="headerSubscribeCTA">
+                          If you have trouble viewing this email, <a href="https://newsletters.jaclynpaul.com/adhdgram_archive/2021/2021-07.html">click here to view it in a browser</a> or <a href="https://newsletters.jaclynpaul.com/adhdgram_archive/2021/2021-07.txt">here to grab a plain-text version</a>.
+                        </p>
+                      </td> <!-- end headerSubscribeLink cell -->
+                    </tr> <!-- end headerSubscribeLink row -->
+                    <tr id="headerImage">
+                      <td>
+                        <img align="center" alt="The ADHDgram" src="https://newsletters.jaclynpaul.com/adhdgram_assets/recurring_assets/ADHDgram_header.png" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="image">
+                      </td>
+                    </tr> <!-- end headerImage -->
+                    <tr id="headerVolumeIssueDate">
+                      <td>
+                        <!--
+                        ⚠️ Update date for each issue
+                        -->
+                        <p id="templateHeader" class="headerIssueDate">vol. 5, issue 6&nbsp;| august 2021</p>
+                      </td>
+                    </tr> <!-- end headerVolumeIssueDate -->
+                  </table> <!-- end bodyContentBlockInner -->
+                </td> <!-- end header content block -->
+              </tr> <!-- end header -->
+              <tr id="TOC">
+                <td> <!-- begin TOC content block -->
+                  <table class="bodyContentBlockInner">
+                    <tr>
+                      <td class="tocContainer">
+                        <p>In this issue:<br />
+                        <!--
+                        ⚠️ Update anchor links to reflect current content
+                        -->
+                        <a href="#introLetter">Unearned spontaneity</a><br />
+                        <a href="#article-1">Register for the Order from Chaos workshop this week!</a><br />
+                        <!--
+                        <a href="#article-3">Don't forget to review on Audible</a><br />
+                        <a href="#since-last">Previously on...</a><br />
+                        -->
+                        <a href="#thanks">Thank you</a><br />
+                      </td>
+                    </tr>
+                  </table> <!-- end bodyContentBlockInner -->
+                </td> <!-- end TOC content block -->
+              </tr> <!-- end TOC -->
+              <tr id="introLetterRow">
+                <td id="letterContainer"> <!-- begin intro letter content block -->
+                  <table class="bodyContentBlockInner">
+                    <tr>
+                      <td class="textContentContainer">
+                        <br /><h3 id="introLetter">Dear [FIRST_NAME/friends],</h3>
+                          <!--
+                          ⚠️ Paste monthly letter text below
+                          -->
+                          <p><img class="profilePic" src="https://newsletters.jaclynpaul.com/adhdgram_assets/recurring_assets/jaclyn_headshot.jpg">As I write this, I'm on the cusp of an act so out-of-character, people close to me might wonder if I'm okay. Alternatively, they might feel relieved I'm finally taking their advice.</p>
+
+                          <p>I'm seizing an opportunity for last-minute travel plans.</p>
+
+                          <p>I generally dislike last-minute anything. However, this is the last week of summer vacation and I have an opportunity to take my kiddo for three last beach days and the surf forecast looks terrible but very much open to delusion. For once I managed to ask myself: is it possible I will look back years from now and say, "my life would have turned out so much better if I'd skipped those extra three days at the beach?"</p>
+
+                          <p>Highly unlikely. Like, eaten-by-a-shark-and-struck-by-lightning-on-the-same-day unlikely.</p>
+
+                          <p>I don't have any big ADHD advice or revelations for you this month. If you're anything like me, you're feeling overwhelmed and behind on preparation for the upcoming change of seasons and routines. Nobody needs anything more to process right now.</p>
+
+                          <p>However, I will say this: some of my resistance to last-minute fun activities is just who I am. Recently I was invited to join a trip to the pool or something similarly low-key in my neighborhood. I actually had to say, "I will be excited about this but I need a few minutes to get used to the idea of my day looking different than I expected." That's me being me and it's not going to change.</p>
+
+                          <p>Sometimes, though, I don't think I've earned it. Or I think it's irresponsible. Or both.</p>
+
+                          <p>This short trip to the beach falls under the latter. And you know what? It is irresponsible. There are a hundred other things I should be doing.</p>
+
+                          <p>But they can wait. My grandmother used to tell me, "I was a terrible housekeeper because if I had to choose between scrubbing the floors and taking the kids to the pool, I always took them to the pool."</p>
+
+                          <p>Too many such choices and I will have a meltdown about the house, but too few and I will miss out on experiences I'll never get back. I want my kid to remember me taking him to dig in the sand. I want to remember afternoons spent bodysurfing with my dad.</p>
+
+                          <p>Have I earned this little caper? Absolutely not. And I'm thankful that for once, I've realized that's not the point and done it anyway.</p>
+
+                          <p>
+                            xoxo,
+                          </p>
+                          <p>
+                            <img class="signature" src="https://newsletters.jaclynpaul.com/adhdgram_assets/recurring_assets/jaclyn_signoff.jpg" alt="Jaclyn">
+                          </p>
+                      </td> <!-- end textContentContainer -->
+                    </tr> <!-- end introLetter -->
+                  </table> <!-- end bodyContentBlockInner -->
+                </td> <!-- end intro letter content block -->
+              </tr> <!-- end introLetterRow -->
+              <tr> <!-- begin article row -->
+                <td> <!-- begin article content block -->
+                  <table class="bodyContentBlockInner">
+                    <tr>
+                      <td class="dividerBlockInner">
+                        <hr class="dividerElement" />
+                      </td>
+                    </tr> <!-- end divider -->
+                    <tr>
+                      <td class="textContentContainer">
+                        <h2 id="article-1" style="text-align: left;">Last call for the Order from Chaos workshop!</h2>
+                        <p>
+                          If you want in on our fall workshop, now is the time to register!
+                        </p>
+
+                        <p>
+                          The Order from Chaos workshop is a space to get to know ourselves, figure out why our past attempts to get organized have failed, and craft our own methods for organizing our lives -- systems that mold to fit *us*, not the other way around.
+                        </p>
+                        <p>
+                          We'll share our own real-life experiences, answer questions, and do some Zoom show-and-tell to celebrate organizing and decluttering successes. If you know, you know: sometimes those small wins mean everything to us. It's lovely to be part of a group who gets it.
+                        </p>
+
+                        <p>
+                          I've had *tons of fun* in our demo workshops this summer and can't wait to hang with more of you in the fall. You can join the workshop as a companion to or replacement for reading the book -- this is basically it in conversational form, with a bunch of new friends.
+                        </p>
+
+                        <p>
+                          I'm hosting two sessions this fall:
+                          <ul>
+                            <li><a href="https://www.eventbrite.com/e/159513291549/?discount=ADHDgram-DCJQVMEB">Thursday evenings at 7:30 p.m. Eastern, September 2 - October 14</a></li>
+                            <li><a href="https://www.eventbrite.com/e/159519127003/?discount=ADHDgram-DCJQVMEB">Saturday mornings at 9:30 a.m. Eastern, starting September 11 - October 30</a></li>
+                          </ul>
+                        </p>
+                        <p>
+                          These links will automatically apply a 10% discount at checkout. If you answered my interest survey last fall, look for a special email with an additional discount!
+                        </p>
+                      </td>
+                    </tr> <!-- end text content row -->
+                  </table> <!-- end bodyContentBlockInner -->
+                </td> <!-- end article content block -->
+              </tr> <!-- end article row -->
+              <tr> <!-- begin article row -->
+                <td> <!-- begin article content block -->
+                  <table class="bodyContentBlockInner">
+                    <tr>
+                      <td class="dividerBlockInner">
+                        <hr class="dividerElement" />
+                      </td>
+                    </tr> <!-- end divider -->
+                    <tr>
+                      <td class="textContentContainer">
+                        <h2 id="article-3" style="text-align: left;">A little help?</h2>
+                        <p>
+                        Y'all have really come through with reviews of <em><a href="https://adhdhomestead.net/orderfromchaos/">Order from Chaos</a></em> on Goodreads and Amazon. These reviews help new readers discover the book -- and my reader emails tell me they appreciate the discovery! If you've checked out the <em>Order from Chaos</em> audiobook, <a href="https://www.audible.com/pd/Order-from-Chaos-Audiobook/1666126446">please take a moment to leave a review on Audible</a>.
+                        </p>
+                      </td>
+                    </tr> <!-- end text content row -->
+                  </table> <!-- end bodyContentBlockInner -->
+                </td> <!-- end article content block -->
+              </tr> <!-- end article row -->
+              <tr>
+                <td> <!-- begin article content block -->
+                  <table class="bodyContentBlockInner">
+                    <tr>
+                      <td class="dividerBlockInner">
+                        <hr class="dividerElement" />
+                      </td>
+                    </tr> <!-- end divider -->
+                    <tr>
+                      <td class="textContentContainer">
+                        <h2 id="since-last" style="text-align: left;">Since the last ADHDgram...</h2>
+                          <h3>Blog Posts</h3>
+                            <p><ul>
+                              <li><a href="https://adhdhomestead.net/care-about-messy-house/">What to say instead of "I feel like you don't care the house is a mess."</a></li>
+                            </ul></p>
+                          <h3>Bonus Audioblogs:</h3>
+                          <p><ul>
+                            <li><a href="https://www.patreon.com/posts/audioblog-35-liz-53177601">Audioblog #35: Conversation with Liz Lewis; pondering feedback, and what expectations are realistic vs. ableist</a></li>
+
+                          </ul></p>
+
+                      </td>
+                    </tr> <!-- end text content row -->
+                  </table> <!-- end bodyContentBlockInner -->
+                </td> <!-- end article content block -->
+              </tr> <!-- end article row -->
+
+              <tr> <!-- begin article row -->
+                <td> <!-- begin article content block -->
+                  <table class="bodyContentBlockInner">
+                    <tr>
+                      <td class="dividerBlockInner">
+                        <hr class="dividerElement" />
+                      </td>
+                    </tr> <!-- end divider -->
+                    <tr>
+                      <td class="textContentContainer">
+                        <h2 id="thanks" style="text-align: left;">Thank you 💗</h2>
+                        <p>
+                          Your support on Patreon and tinyCoffee helps keep The ADHD Homestead independent and ad-free. Extra special thanks to the following Patrons for your generosity:
+                          <ul>
+                            <li>Wayne Panniello</li>
+                            <li>Allegra Scheinblum</li>
+                            <li>Laura Lindsay</li>
+                            <li>Gretchen Canova-Gabor</li>
+                            <li>Kim Shocktastic</li>
+                            <li>Sarah Kern</li>
+                            <li>Sarah Walter</li>
+                            <li>Megan Streb</li>
+                            <li>Laura Bowden</li>
+                          </ul>
+                        </p>
+                        <p>
+                          To support The ADHD Homestead on Patreon, click here: <a href="https://www.patreon.com/ADHDhomestead">https://www.patreon.com/ADHDhomestead</a>
+                        </p>
+
+
+                      </td>
+                    </tr> <!-- end text content row -->
+                  </table> <!-- end bodyContentBlockInner -->
+                </td> <!-- end article content block -->
+              </tr> <!-- end article row -->
+
+
+              <tr> <!-- begin footer row -->
+                <td align="center" valign="top" class="footerContentBlock">
+                <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                <tr>
+                <td align="center" valign="top" width="600" style="width:600px;">
+                <![endif]-->
+                  <table class="footerContentBlockInner">
+                    <tr id="followBlockTopBorder">
+                      <td class="dividerBlockInner">
+                        <hr class="dividerElement" />
+                      </td>
+                    </tr> <!-- end followBlockTopBorder -->
+                    <tr id="followBlockOuter">
+                      <td valign="top" class="footerContainer">
+                        <table style="background-color: inherit;">
+                          <tr>
+                            <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+                                <a href="https://www.facebook.com/TheADHDHomestead/" target="_blank">
+                                  <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" style="display:block;" height="24" width="24" class="" alt="Facebook">
+                                </a>
+                            </td> <!-- end Facebook cell -->
+                            <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+                                <a href="https://adhdhomestead.net/" target="_blank">
+                                  <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" style="display:block;" height="24" width="24" class="" alt="website">
+                                </a>
+                            </td> <!-- end website cell -->
+                            <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+                                <a href="https://www.instagram.com/jaclynpaulwriter/" target="_blank">
+                                  <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png" style="display:block;" height="24" width="24" class="" alt="Instagram">
+                                </a>
+                            </td> <!-- end Instagram cell -->
+                          </tr> <!-- end follow block row -->
+                        </table> <!-- end follow block table -->
+                      </td> <!-- end footerContainer -->
+                    </tr> <!-- end followBlockOuter -->
+                    <tr id="followBlockBottomBorder">
+                      <td class="dividerBlockInner">
+                        <hr class="dividerElement" />
+                      </td>
+                    </tr> <!-- end followBlockBottomBorder -->
+                    <tr id="copyrightBlockOuter">
+                      <td> <!-- begin copyright block -->
+                        <p>
+                          <em>Copyright © 2020 Summit to Sea, LLC. All rights reserved.</em>
+                        </p>
+                        <p>
+                          No longer feeling these emails? No problem! Unsubscribe by <a href='[LINK_UNSUBSCRIBE]' target='_blank' title='unsubscribe link'>clicking here</a>.<br />
+                        </p>
+                        <p>
+                          <strong>My mailing address is:</strong><br />
+                          PO Box 65221<br />
+                          Baltimore, MD 21209
+                        </p>
+                      </td> <!-- end copyright block -->
+                    </tr> <!-- end copyrightBlockOuter -->
+                  </table> <!-- end bodyContentBlockInner - footer row -->
+                </td> <!-- end footerContent -->
+              </tr> <!-- end footerRow -->
+            </table> <!-- end contentTable -->
+            <!-- // END TEMPLATE -->
+            </td> <!-- end bodyCell -->
+          </tr> <!-- end bodyTable row -->
+        </table> <!-- end bodyTable -->
+      </center>
+    </body>
+</html>
