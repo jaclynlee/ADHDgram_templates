@@ -1,40 +1,61 @@
 The ADHDgram
-vol. 9, issue 4 | june(ish) 2025
+vol. 9, issue 5 | july 2025
 ========================================================
 In this issue:
-* What if it's actually okay?
+* ChatGPT as a helpful coworker and working memory support
+* I don't know how long my store was broken but it should be fixed now XD
 * How to support my work
 ========================================================
 
-I'm sending my June newsletter in July, and let's just put the question out there: what if it's actually fine?
+I haven't written about AI here yet.
 
-I've asked this many times over the past year or so. The first time came when I was nit-picking something about my body, or probably more specifically, how my clothes fit on and around it.
+I feel pretty cynical about it. Beyond that, I hadn't found much practical use for AI. I can write content myself more easily than I can figure out how to write an AI prompt to generate it. (Yes, these feel like two very different skillsets for me.)
 
-I interrupted my self-critical train of thought with, Yeah but what if it's actually fine? What if my body is healthy and strong, and that is more than good enough?
+However, this month I've explored a few non-writing uses for AI, specifically ChatGPT, and I think it has a lot of potential as an ADHD support.
 
-This may sound a little unhinged, but what if that thing you're obsessing about isn't actually a problem?
+This time of year I usually do a bunch of work to get DoTheThing.app [https://dothething.app/] ready for Apple's new devices and big iOS update in September.
 
-And yes, I get it, I have the impulsive strain of ADHD and thus have in my life done things that are objectively Not Fine. If we act irresponsibly, harm another person, something like that, then yes, we ought to atone for that and do what we can to make it right.
+The 2025 changes pushed me to finish the last pieces of a big redesign I've been putting off since March 2024. I put this work off not because I didn't know how to do it, but because the process felt overwhelming. I'd have to sift through online documentation, identify the relevant bits, apply this information to my specific situation, and identify the next steps. Then I could get to the code, aka the fun part.
 
-The other weekend I was out climbing with a group of women and caught myself apologizing after I took what felt like an eternity figuring out a tricky section of a route. In my mind I'd taken too much time and attention. I'd taken too long to come down and give someone else a turn on that route.
+People who've been with me a minute might know what I'm going to say next: this is a heck of a lot of stuff to fit in my brain's very limited working memory.
 
-You may be shocked to hear, it was actually fine. The rest of the group would've been bummed if I'd given up without finishing the route. I'd worked so hard! I was so close to the top! Not a single person would've thanked me for taking up less time and space in that moment.
+A lot of my writing comes back to working memory because it's a key source of ADHD struggles for me personally. Probably a lot of you, too. Working memory allows us to hold more than one thing in mind at once and use that information for reasoning. Many people with ADHD have impaired working memory. This is why I keep dry erase markers clipped to my bathroom mirror, and why I need to write out a detailed itinerary on paper to determine what time I need to leave for an appointment.
+[https://adhdhomestead.net/write-on-the-wall/]
+[https://adhdhomestead.net/how-to-get-places-on-time-when-you-have-adhd/]
 
-And yet this is something I struggle with, having grown up as that ADHD kid who often felt like (or was outright told) I took up too much air in the room. It's hard to take the time and space I need, especially if that time and space requires something of another person.
+Also, why doing this work on my app felt like trying to touch the repelling ends of two magnets together.
 
-Look, I get actually having things to apologize for. Believe me. But I think that can also work against us. Sometimes we think we need to apologize for *everything*. We think every problem we can see, is as much a problem as it appears through our eyes.
+I decided to ask ChatGPT for help. I told it what I wanted to accomplish and shared the relevant code from my project.
 
-Sometimes it's just not.
+To my surprise, it did exactly what I needed it to do. It was like the helpful coworker who says, "Oh, that's not hard, you just need to do X and Y." It explained the basics of what I needed to do, then concluded with a bulleted list of next steps.
 
-I'll never feel one hundred percent satisfied with myself. But do I want to? Being a work in progress is a core part of my life experience.
+I continued to bounce ideas off it and occasionally ask for help thinking through something that wasn't working quite right. While I never used it to write code for me, it drained all the overwhelm and intimidation from the task.
 
-Most of us hold ourselves to a way higher standard than we would ever apply to the people we love.
+It took me a few days to realize why this was: working memory. I didn't need a machine to write code for me. I needed it to help me aggregate information and organize my thoughts. Once I had that start, I could begin the "real" work.
 
-What if we're doing the best we can with what we have right now, and that is actually fine?
+I don't know exactly how much work and time this saved me, but I suspect multiple days. Especially because I work alone. I don't have that helpful coworker to bounce ideas off of and provide that spark to distill my process.
+
+Even when I did, I wanted to respect their time. I'd only ask for a helpful ear when I thought I really had to.
+
+ChatGPT had nothing but time. I never felt like I should say "thank you" and spin my chair back to my own desk even when I still wanted to ask a follow-up question.
+
+AI has its downsides. I could write several newsletters about them. However, some of us feel hindered from doing our best, most fulfilling work because our brains run out of working memory and this feels so uncomfortable we avoid the work altogether.
+
+If we can occasionally offload that to ChatGPT (or Gemini, or whoever), what might that mean for us? What might we be able to do in a way that feels exciting, creative, and quite frankly, similar to how we see our non-ADHD colleagues having the privilege of working?
+
+I would never advocate for letting AI do everything for us, or removing all mental discomfort or even effort. However, lately I've felt desperate for anything to ease the burden just a little bit, once in a while. If ChatGPT can help me get started on a project I've been putting off for over a year, that's help I'm going to accept whenever it makes sense.
 
 xoxo,
 
 Jaclyn
+
+========================================================
+
+** The store is back! **
+
+At some point this month I realized the ADHD Homestead store was broken -- oops! I'm not too proud to admit I have no idea how long it had been that way. Anyhow, it's back up and running now, so if you tried and failed to order downloadables, stickers, or other merch in the past please give it a whirl again.
+
+https://adhdhomestead.net/shop/
 
 ========================================================
 
